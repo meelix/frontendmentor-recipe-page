@@ -11,7 +11,7 @@
 
 @font-face {
   font-family: 'Outfit';
-  src: url('/assets/fonts/subset-Outfit-Bold.woff2') format('woff2');
+  src: url('./assets/fonts/subset-Outfit-Bold.woff2') format('woff2');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -19,7 +19,7 @@
 
 @font-face {
   font-family: 'Outfit';
-  src: url('/assets/fonts/subset-Outfit-Regular.woff2') format('woff2');
+  src: url('./assets/fonts/subset-Outfit-Regular.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -27,7 +27,7 @@
 
 @font-face {
   font-family: 'Outfit';
-  src: url('/assets/fonts/subset-Outfit-SemiBold.woff2') format('woff2');
+  src: url('./assets/fonts/subset-Outfit-SemiBold.woff2') format('woff2');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -35,7 +35,7 @@
 
 @font-face {
   font-family: 'Young Serif';
-  src: url('/assets/fonts/subset-YoungSerif-Regular.woff2') format('woff2');
+  src: url('./assets/fonts/subset-YoungSerif-Regular.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -156,6 +156,8 @@ ul, ol {
       font-weight: 700;
       line-height: 150%;
     }
+
+    + li { margin-top:8px; }
   }
 }
 
